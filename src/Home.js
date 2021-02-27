@@ -7,7 +7,6 @@ const Home = () => {
 
 	return (
 		<div className="home">
-			{console.log("a")}
 			{catchError && <p>{catchError}</p>}
 			{loading && <p>Loading...</p>}
 			{blogs && <BlogList blogs={blogs} title="Blogs" />}
